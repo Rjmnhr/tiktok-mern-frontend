@@ -1,0 +1,45 @@
+.videoFooter{
+    position: relative;
+    color: white;
+    bottom: 180px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.videoFooter_text{
+    flex: 1;
+}
+
+.videoFooter_icon{
+    position: absolute;
+    padding-top: 12px;
+}
+
+.videoFooter_ticker > .ticker{
+    height: 10px;
+    margin-left: 30px;
+    width: 60%;
+}
+
+
+.videoFooter_record{
+    animation: spinTheRecord infinite 5s linear;
+    height: 50px;
+    position: absolute;
+    bottom:0;
+    filter: invert(1);
+    right: 20px;
+    display: block;
+    
+}
+
+
+@keyframes spinTheRecord {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
